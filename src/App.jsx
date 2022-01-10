@@ -1,5 +1,6 @@
-export function App() {
-throw new Error('E agora Geovane?');
+import { RepositoryList } from './components/RepositoryList';
+import './styles/global.scss';
 
-    return <h1>Hello Fucking World!</h1>
+export function App() {
+    return <RepositoryList />
 };
